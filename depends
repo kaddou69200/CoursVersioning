@@ -1,0 +1,18 @@
+CarreCL.o: CarreCL.cpp ez-draw++.hpp FormeS.hpp Forme.hpp Rectangle.hpp \
+ Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+CercleCL.o: CercleCL.cpp ez-draw++.hpp FormeS.hpp Forme.hpp Rectangle.hpp \
+ Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+EllipseCL.o: EllipseCL.cpp ez-draw++.hpp FormeS.hpp Forme.hpp \
+ Rectangle.hpp Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+FormeCL.o: FormeCL.cpp ez-draw++.hpp FormeS.hpp Forme.hpp Rectangle.hpp \
+ Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+FormeSCL.o: FormeSCL.cpp ez-draw++.hpp Forme.hpp FormeS.hpp Point.hpp \
+ Rectangle.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+main.o: main.cpp ez-draw++.hpp MyWindow.hpp FormeS.hpp Forme.hpp \
+ Rectangle.hpp Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+MyWindow.o: MyWindow.cpp ez-draw++.hpp MyWindow.hpp FormeS.hpp Forme.hpp \
+ Rectangle.hpp Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+PointCL.o: PointCL.cpp ez-draw++.hpp FormeS.hpp Forme.hpp Rectangle.hpp \
+ Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
+RectangleCL.o: RectangleCL.cpp ez-draw++.hpp FormeS.hpp Forme.hpp \
+ Rectangle.hpp Point.hpp Carre.hpp Ellipse.hpp Cercle.hpp
